@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+<center>
+      <h1>Shape Generator</h1>
+      <h1>Shapes</h1>
+      <div class="shapes">
+        <label><input type="radio" name="shape" value="square" /> Square</label>
+        <label><input type="radio" name="shape" value="circle" /> Circle</label>
+        <label><input type="radio" name="shape" value="rectangle" />Rectangle</label>
+      </div>
+      <div class="button">
+        <label for="no-of-shape">No of Shapes: </label>
+        <input type="number" id="no-of-shape" />
+        <button id="submit" onclick="shapegeneration()">Generate</button>
+      </div>
+      <div id="shape-generation"></div>
+    </center>
+  </body>
+</html>
