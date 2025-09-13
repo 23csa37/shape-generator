@@ -18,4 +18,5 @@ const shapeDiv = document.createElement("div");
  container.appendChild(shapeDiv);
   }
 };
-document.querySelector("#submit").addEventListener("click", generateShape
+document.querySelector("#submit").addEventListener("click", generateShapes);
+
